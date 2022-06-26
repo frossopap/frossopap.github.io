@@ -21,6 +21,15 @@
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
         <p>{{ site.description | default: site.github.project_tagline }}</p>
+       
+        <ul class="author__urls social-icons">
+          <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> London, UK</li>
+          <li><a href="https://www.researchgate.net/profile/Antoine-Vendeville"><i class="fab fa-fw fa-researchgate" aria-hidden="true"></i> ResearchGate</a></li>
+          <li><a href="https://twitter.com/avdeville"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+          <li><a href="https://github.com/AntoineVendeville"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
+          <li><a href="https://scholar.google.fr/citations?user=D7pFu_8AAAAJ&amp;hl=en"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
+          <li><a href="https://orcid.org/0000-0002-9044-8348"><i class="ai ai-orcid-square ai-fw"></i> ORCID</a></li>
+        </ul>
 
         {% if site.github.is_project_page %}
         <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
